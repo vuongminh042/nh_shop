@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="./style.scss" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="" class="header__logo">
+                    <img src="./assets/logo.svg" alt="" />
+                </a>
+                <nav class="main-menu">
+                    <ul class="main-menu__list">
+                        <li class="main-menu__item">
+                            <a href="index.html" class="main-menu__link">Home</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="shop.html" class="main-menu__link">Shop</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">About</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-items">
+                    <div class="header-item-user">
+                        <a href="login.html"><img src="image/user.svg" alt=""></a>
+                    </div>
+                    <div class="header-item-user">
+                        <a href=""><img src="image/search.svg" alt=""></a>
+                    </div>
+                    <div class="header-item-user">
+                        <a href=""><img src="image/heart.svg" alt=""></a>
+                    </div>
+                    <div class="header-item-user">
+                        <a href="giohang.html"><img src="image/cart.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <img src="https://picsum.photos/id/10/1440/500" alt="" class="banner__img" />
+    </section>
+    <section class="content" style="margin-top: 50px;">
+        <div class="table" style="display: flex; gap: 100px;">
+            <table class="table" style="width: 800px;margin-left: 200px;">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Image</th>
+                        <th scope="col">Product</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Subtotal</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="col">1</td>
+                        <td scope="col"><img src="https://picsum.photos/70/70" alt=""></td>
+                        <td scope="col">Product 1</td>
+                        <td scope="col">$300</td>
+                        <td scope="col"><input type="number" value="0"></td>
+                        <td scope="col"><img src="image/delete.svg" alt="" style="color: #B88E2F;"></td>
+                        <td scope="col"></td>
+                    </tr>
+                    <tr>
+                        <td scope="col">2</td>
+                        <td scope="col"><img src="https://picsum.photos/70/70" alt=""></td>
+                        <td scope="col">Product 1</td>
+                        <td scope="col">$300</td>
+                        <td scope="col"><input type="number" value="0"></td>
+                        <td scope="col"><img src="image/delete.svg" alt="" style="color: #B88E2F;"></td>
+                        <td scope="col"></td>
+                    </tr>
+                    <tr>
+                        <td scope="col">3</td>
+                        <td scope="col"><img src="https://picsum.photos/70/70" alt=""></td>
+                        <td scope="col">Product 1</td>
+                        <td scope="col">$300</td>
+                        <td scope="col"><input type="number" value="0"></td>
+                        <td scope="col"><img src="image/delete.svg" alt="" style="color: #B88E2F;"></td>
+                        <td scope="col"></td>
+                    </tr>
+                    <tr>
+                        <td scope="col">4</td>
+                        <td scope="col"><img src="https://picsum.photos/70/70" alt=""></td>
+                        <td scope="col">Product 1</td>
+                        <td scope="col">$300</td>
+                        <td scope="col"><input type="number" value="0"></td>
+                        <td scope="col"><img src="image/delete.svg" alt="" style="color: #B88E2F;"></td>
+                        <td scope="col"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="box" style="background: #F9F1E7; width: 450px;">
+                <h3 style="text-align: center;margin-top: 25px;">Cart Totals</h3>
+                <div class="text" style="margin-left: 50px; display: flex; gap: 120px;">
+                    <h5>Subtotal</h5> 
+                    <span>25.000.000đ</span>
+                </div>
+                <br>
+                <div class="text" style="margin-left: 50px; display: flex; gap: 120px;">
+                    <h5>Total</h5> 
+                    <span style="margin-left: 30px;">25.000.000đ</span>
+                </div>
+                <br>
+                <br>
+                <br>
+                <a class="btn btn-primary" href="thanhtoan.html" style="width: 150px; height: 40px; margin-left: 150px; background: blue; border-radius: 6px;">Add to cart</a>
+            </div>
+        </div>
+    </section>
+    <section class="services" style="margin-top: 50px;">
+        <div class="container-fluid">
+            <div class="service-list">
+                <div class="service-item">
+                    <img src="" class="service__image" />
+                    <div class="service-info">
+                        <h4 class="service__name">High Quality</h4>
+                        <p class="service__description">crafted from top materials</p>
+                    </div>
+                </div>
+                <!--End service-item-->
+                <div class="service-item">
+                    <img src="" class="service__image" />
+                    <div class="service-info">
+                        <h4 class="service__name">High Quality</h4>
+                        <p class="service__description">crafted from top materials</p>
+                    </div>
+                </div>
+                <!--End service-item-->
+                <div class="service-item">
+                    <img src="" class="service__image" />
+                    <div class="service-info">
+                        <h4 class="service__name">High Quality</h4>
+                        <p class="service__description">crafted from top materials</p>
+                    </div>
+                </div>
+                <!--End service-item-->
+                <div class="service-item">
+                    <img src="" class="service__image" />
+                    <div class="service-info">
+                        <h4 class="service__name">High Quality</h4>
+                        <p class="service__description">crafted from top materials</p>
+                    </div>
+                </div>
+                <!--End service-item-->
+            </div>
+        </div>
+    </section>
+    <!--End .services-->
+    <footer>
+        <div class="container">
+            <div class="footer-list">
+                <div class="footer-item">
+                    <img src="./assets/logo.svg" alt="" />
+                    <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+                </div>
+                <div class="footer-item">
+                    <h2>Links</h2>
+                    <ul class="footer-menu-list">
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Home</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Shop</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Blog</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h2>Help</h2>
+                    <ul class="footer-menu-list">
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Payment Options</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Returns</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Privacy Policies</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h2>Newsletter</h2>
+                    <form action="" class="newsletter">
+                        <input type="text" class="newsletter__input" placeholder="Enter Your Email Address" />
+                        <button class="newsletter__btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <p class="copyright">2023 furino. All rights reverved</p>
+        </div>
+    </footer>
+</body>
+
+</html>

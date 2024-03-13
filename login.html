@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            text-align: center;
+        }
+        .form {
+            width: 300px;
+            background: #ccc;
+            text-align: center;
+        }
+        h1{
+            color: #B88E2F;
+            font-weight: 700;
+        }
+        button{
+            width: 100px;
+            height: 40px;
+            border-radius: 10px;
+            color: #000;
+            font-weight: bold;
+            background: #F9F1E7;
+            border: 1px solid #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form>
+            <div class="mb-3">
+                <label for="username" class="form-label" style="color: #B88E2F; margin-left: -340px;">Username</label>
+                <br>
+                <input type="text" class="form-control" id="username" style="width: 400px; height: 40px; background: #fff; border: 2px solid #000; color: #000; border-radius: 10px;" placeholder="Nguyen Van A">
+                <div id="nameError" class="form-text"></div>
+            </div>
+            <br>
+            <div class="mb-3">
+                <label for="password" class="form-label" style="color: #B88E2F; margin-left: -340px;">Password</label>
+                <br>
+                <input type="password" class="form-control" id="password" style="width: 400px; height: 40px; background: #fff; border: 2px solid #000; color: #000; border-radius: 10px;" placeholder="********">
+                <div id="passError" class="form-text"></div>
+            </div>
+            <br>
+            <br>
+            <button type="submit" class="btn btn-primary">Login</button>
+            <br>
+            <br>
+            <div style="display: flex; gap: 40px; margin-left: 700px;">
+                <button type="submit" class="btn btn-primary" style="background: blue; color: #fff; border: 1px solid #fff;">Facebook</button>
+                <button type="submit" class="btn btn-primary" style="background: #fff; color: #000; border: 1px solid #000;">Google</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
